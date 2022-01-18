@@ -40,7 +40,7 @@ export default function LandingPage() {
         }  ${darkMode ? "bg-dark" : "bg-light"}  my-navbar `}
       >
         <a className="navbar-brand" href="/">
-          <img src="/images/landingPageLogo.png" alt="" className="img-fluid" />
+          <img src="/images/landingLogo.png" alt="" className="img-fluid" />
         </a>
         <button
           className="navbar-toggler"
