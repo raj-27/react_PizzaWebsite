@@ -66,7 +66,7 @@ export default function LandingPage() {
         </div>
       </nav>
       <div className="container-fluid position-absolute banner-container overflow-hidden">
-        <div className="row d-flex justify-content-center align-items-center banner-row mx-auto">
+        <div className="row  justify-content-center align-items-center banner-row mx-auto">
           <div className="col-12 col-sm-12 col-md-5 col-lg-5">
             <img
               src="/images/Asta2.png"
