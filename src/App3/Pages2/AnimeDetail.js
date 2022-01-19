@@ -93,7 +93,7 @@ export default function AnimeDetail() {
                       ))}
                   </span>
                   <span className="col-lg-3 col-sm-5 col-md-5 col-12 mx-1 my-3">
-                    Genres :{" "}
+                    Genres :{""}
                     {genres &&
                       genres.map((genre) => (
                         <span className="m-1 d-inline-block" key={genre.mal_id}>
