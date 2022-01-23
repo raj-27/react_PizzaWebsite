@@ -16,13 +16,11 @@ export default function About() {
           </div>
           <div className="about-info col-12 col-sm-5 col-md-5 col-lg-5 mx-1 d-inline-block">
             <p className="d-inline-block">
-              Hii, My name is Raj . I am hardworking BCA undergraduate students
-              and pursing my bachelor degree with Chikitsak Samuha's Sir Sitaram
-              and Lady Shantabai Patkar College of Arts and Science and V.P.
-              Varde College of Commerce and Economics with currently CGPA 8.25
-              During my course I have learned  frontend
-              technologies HTML,CSS,JAVASCRIPT,REACT,BOOTSTRAP and many Other which help
-              me design better mobile responsve Website and I want to contribute my skills to make better UI/UX Design
+              Currently I’m pursuing BCA with S.S & L. S PATKAR & V.P VARDE
+              COLLEGE GOREGAON with 8.25 CGPA During my course curriculum I have learned
+              frontend technologies HTML,CSS,JAVASCRIPT,REACT,BOOTSTRAP and many
+              Other which help me design better mobile responsve Website and I
+              want to contribute my skills to make better UI/UX Design
             </p>
           </div>
         </div>

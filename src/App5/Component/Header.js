@@ -33,7 +33,7 @@ export default function Header() {
             </h2>
             <ul className="d-flex">
               <li className="m-2 text-white">
-                <a href="https://www.linkedin.com/in/raj-yadav-5084b8194/" target="_blank">
+                <a href="https://www.linkedin.com/in/rajyadav27/" target="_blank">
                   <i class="uil uil-linkedin"></i>
                 </a>
               </li>

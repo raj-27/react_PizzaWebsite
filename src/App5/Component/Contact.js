@@ -76,9 +76,6 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                 />
-                <small id="emailHelp" className="form-text text-muted">
-                  We'll never share your email with anyone else.
-                </small>
               </div>
               <div className="form-group">
                 <label hrmlFor="InputPassword1" className="text-white">
@@ -94,6 +91,9 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                 />
+                <small id="emailHelp" className="form-text text-muted">
+                  We'll never share your email with anyone else.
+                </small>
               </div>
               <div className="form-group">
                 <label hrmlFor="FormControlTextarea1" className="text-white">
