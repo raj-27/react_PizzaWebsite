@@ -61,7 +61,7 @@ export default function Header() {
             </span>
           </div>
           <div className="header-img col-md-5 col-lg-5 col-sm-5 col-12 d-flex justify-content-center align-items-center m-1">
-            <img src="/images/profile_pic1.png" className="img-fluid" alt="" />
+            <img src="/images/header-pic1.jpg" className="img-fluid" alt="" />
           </div>
         </div>
       </div>

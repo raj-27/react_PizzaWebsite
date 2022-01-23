@@ -8,7 +8,7 @@ export default function About() {
         <div className="row  justify-content-center align-items-center ">
           <div className="about-pic col-md-5 col-lg-5 col-sm-5 col-12 d-flex justify-content-center align-items-center mx-1 ">
             <img
-              src="/images/profile_pic.jpg"
+              src="/images/header-pic1.jpg"
               className="img-fluid"
               alt=""
               srcSet=""
