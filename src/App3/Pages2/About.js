@@ -18,12 +18,12 @@ export default function About() {
             </p>
             <ul className="d-flex">
               <li className="lead mx-1">
-                <a href="https://www.linkedin.com/in/raj-yadav-5084b8194/">
+                <a href="https://www.linkedin.com/in/rajyadav27/" target='_blank' >
                   <i className="uil uil-linkedin"></i>
                 </a>
               </li>
               <li className="lead mx-1">
-                <a href="https://wa.me/9892603606">
+                <a href="https://wa.me/9892603606" target='_blank' >
                 <i className="uil uil-whatsapp text-success"></i>
                 </a>
               </li>
