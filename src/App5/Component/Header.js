@@ -48,7 +48,7 @@ export default function Header() {
                 </a>
               </li>
               <li className="m-2 text-white">
-                <a href="https://wa.me/989203606" target="_blank">
+                <a href="https://wa.me/919892603606" target="_blank">
                 <i class="uil uil-whatsapp"></i>
                 </a>
               </li>

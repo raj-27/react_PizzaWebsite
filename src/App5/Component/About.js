@@ -6,15 +6,8 @@ export default function About() {
       <div className="container-fluid about-container " id="About">
         <h1 className="about-title py-2">About</h1>
         <div className="row  justify-content-center align-items-center ">
-          <div className="about-pic col-md-5 col-lg-5 col-sm-5 col-12 d-flex justify-content-center align-items-center mx-1 ">
-            <img
-              src="/images/header-pic1.jpg"
-              className="img-fluid"
-              alt=""
-              srcSet=""
-            />
-          </div>
-          <div className="about-info col-12 col-sm-5 col-md-5 col-lg-5 mx-1 d-inline-block">
+        
+          <div className="about-info col-12 col-sm-8 col-md-8 col-lg-8 mx-1 d-inline-block">
             <p className="d-inline-block">
               Currently I’m pursuing BCA with S.S & L. S PATKAR & V.P VARDE
               COLLEGE GOREGAON with 8.25 CGPA During my course curriculum I have learned
