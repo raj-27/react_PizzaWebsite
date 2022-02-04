@@ -1,0 +1,17 @@
+.marketing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150vh;
+}
+
+.marketing img {
+  width: 100%;
+  height: 60vh;
+}
+
+.marketing .container-1 .content li {
+  list-style: none;
+  font-size: 1.008rem;
+}
+/*# sourceMappingURL=Marketing.css.map */
