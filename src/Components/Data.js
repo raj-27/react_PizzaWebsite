@@ -5,6 +5,7 @@ const Data = (props) => {
   let [products, setProducts] = useState([]);
   let [cart, setCart] = useState({});
 
+ 
 
   let fetchProducts = async () => {
     const { data } = await commerce.products.list();
@@ -32,7 +33,13 @@ const Data = (props) => {
 
   let handleEmptyCart = async () => {
     let { cart } = await commerce.cart.empty();
+
     setCart(cart);
+  };
+
+  const refreshCart = async () => {
+    const newCart = await commerce.cart.refresh();
+    setCart(newCart);
   };
 
   useEffect(() => {
@@ -49,8 +56,8 @@ const Data = (props) => {
           handleEmptyCart,
           handleupdatCartQty,
           removeCartItem,
-          
-                   
+          refreshCart,
+         
         }}
       >
         {props.children}

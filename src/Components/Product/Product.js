@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { ProductData } from '../ProductData';
+import { motion } from "framer-motion"
 
 const Product = ({product}) => {
 
@@ -10,7 +11,7 @@ const Product = ({product}) => {
   
     return (
       <>
-         <div className="col-12 col-sm-5 col-md-5 col-lg-3 my-2 px-1">
+         <motion.div whileHover={{scale: 1.03}} className="col-12 col-sm-5 col-md-5 col-lg-3 my-2 px-1">
               <div className="card " style={{ width: "100%" }}>
                 <img className="card-img-top" src={product.image.url} height="170" width="200" alt="Card_image" />
                 <div className="card-body">
@@ -28,7 +29,7 @@ const Product = ({product}) => {
                 </div>
               </div>
 
-            </div>
+            </motion.div>
       </>
   );
 };

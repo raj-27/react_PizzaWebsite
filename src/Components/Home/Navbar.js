@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
         <Link className="navbar-brand" to="/">
-          Navbar
+          <img src="/images/pizza_logo.png" alt="logo.png" style={{width:"5.5rem"}} />
         </Link>
         <button
           className="navbar-toggler"

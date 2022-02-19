@@ -4,7 +4,6 @@ import { ProductData } from "../ProductData";
 import Product from "./Product";
 const Products = () => {
   let { products } = useContext(ProductData);
-  // console.log(products);
   return (
     <>
     <Banner/>
